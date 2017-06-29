@@ -10,6 +10,8 @@ import java.util.List;
 
 /**
  * Class for answer calculation
+ * Input: "Trace.txt" and "AllRules.txt"
+ * Output: "Answers.txt" , "ResultCount.txt", "ResultCountWithName.txt"
  *
  * @author moeka
  *

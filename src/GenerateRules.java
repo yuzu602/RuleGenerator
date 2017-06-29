@@ -11,6 +11,8 @@ import java.util.List;
 
 /**
  * Class for rules generation in large case
+ * Input: "Trace.txt"
+ * Output: "AllRules.txt"
  *
  * @author moeka
  *
@@ -20,6 +22,7 @@ public class GenerateRules {
 	// for Get rules from trace
 	private static List<Rule> rules;
 	private static List<String> traces;
+
 	private String traceName = "Trace.txt";
 	private List<Rule> getrules = new ArrayList<Rule>();
 
